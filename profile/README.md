@@ -1,15 +1,20 @@
-### Welcome to Open Data Hub
-Open Data Hub (ODH) is an open source project based on Kubeflow that provides open source AI tools for running large and distributed AI workloads on OpenShift Container Platform. Currently, the Open Data Hub project provides open source tools for data storage, distributed AI and Machine Learning (ML) workflows, Jupyter Notebook development environment and monitoring.
+### Welcome to Open Data Hub :wave:
 
-#### Benefits of Open Data Hub
+Open Data Hub (ODH) is an open source project that provides open source AI tools for running large and distributed AI workloads on the OpenShift Container Platform. Currently, the Open Data Hub project provides open source tools for distributed AI and Machine Learning (ML) workflows, Jupyter Notebook development environment and monitoring. The Open Data Hub project roadmap offers a view on new tools and integration the project developers are planning to add.  
 
-ODH is a meta-project that integrates open source projects into a practical solution. It aims to foster collaboration between communities, vendors, user-enterprises, and academics following open source best practices. The open source community can experiment and develop intelligent applications without incurring high costs and having to master the complexity of modern machine learning and artificial intelligence software stacks.
+Included in the Open Data Hub core deployment is several open source components, which can be individially enabled. They include:
+
+- Jupyter Notebooks
+- ODH Dashboard
+- Data Science Pipelines
+- Model Mesh Serving
+
+For further information refer to the [architecture](https://opendatahub.io/docs/architecture.html) and [release notes](https://opendatahub.io/docs/roadmap/release-notes.html).
+
+##
 
 **Contribution Guidelines**:
 [https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md](https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md)
-
-**Release notes**:
-[https://opendatahub.io/docs/roadmap/release-notes.html](https://opendatahub.io/docs/roadmap/release-notes.html)
 
 **Roadmap**:
 [https://opendatahub.io/docs/roadmap/future.html](https://opendatahub.io/docs/roadmap/future.html)
@@ -21,28 +26,52 @@ ODH is a meta-project that integrates open source projects into a practical solu
 
 ### Repositories
 
-- **Core Repositories**
-  * [odh-manifests](https://github.com/opendatahub-io/odh-manifests): A repository for Open Data Hub components Kustomize manifests.
-  * [opendatahub-operator](https://github.com/opendatahub-io/opendatahub-operator): A repository that helps to deploy, monitor and manage the lifecycle of Kubeflow. Built using the Operator Framework which offers an open source toolkit to build, test, package operators and manage the lifecycle of operators.
-  * [odh-dashboard](https://github.com/opendatahub-io/odh-dashboard): A dashboard for Open Data Hub components. Shows what's installed and what's available for installation, as well as, links to component UIs and links to component documentation.
-  * [odh-notebook-controller](https://github.com/opendatahub-io/kubeflow/tree/master/components/odh-notebook-controller): This repository contains the code for the Open Data Hub notebook controller with support for OAuth authentication
-  * [data-science-pipelines](https://github.com/opendatahub-io/data-science-pipelines): Project bringing Kubeflow Pipelines and Tekton together. The current code allows you run Kubeflow Pipelines with Tekton backend end to end.
-  * [ModelMesh Serving](https://github.com/opendatahub-io/modelmesh-serving): The Controller for managing ModelMesh, a general-purpose model serving management/routing layer.
-  * [opendatahub.io](https://github.com/opendatahub-io/opendatahub.io): Contains the webpage source code for [https://opendatahub.io](https://opendatahub.io)
-  * [opendatahub-community](https://github.com/opendatahub-io/opendatahub-community): This is the starting point for joining and contributing to the Open Data Hub community.
+**Core**
+- [opendatahub-operator](https://github.com/opendatahub-io/opendatahub-operator): A repository that helps to deploy, monitor and manage the lifecycle of Kubeflow. Built using the Operator Framework which offers an open source toolkit to build, test, package operators and manage the lifecycle of operators.
+- [odh-dashboard](https://github.com/opendatahub-io/odh-dashboard): A dashboard for Open Data Hub components. Shows what's installed and what's available for installation, as well as, links to component UIs and links to component documentation.
+- [odh-manifests](https://github.com/opendatahub-io/odh-manifests): A repository for Open Data Hub components Kustomize manifests.
+- [odh-notebook-controller](https://github.com/opendatahub-io/kubeflow/tree/master/components/odh-notebook-controller): This repository contains the code for the Open Data Hub notebook controller with support for OAuth authentication.
+- [data-science-pipelines](https://github.com/opendatahub-io/data-science-pipelines): Project bringing Kubeflow Pipelines and Tekton together. The current code allows you run Kubeflow Pipelines with Tekton backend end to end.
+- [modelmesh](https://github.com/opendatahub-io/modelmesh): Distributed Model Serving Framework.
+  - [modelmesh-runtime-adapter](https://github.com/opendatahub-io/modelmesh-runtime-adapter): Unified runtime-adapter image of the sidecar containers which run in the modelmesh pods
+  - [rest-proxy](https://github.com/opendatahub-io/rest-proxy): KServe V2 Protocol Rest API Implementation Proxy.
+  - [modelmesh-serving](https://github.com/opendatahub-io/modelmesh-serving): The Controller for managing ModelMesh, a general-purpose model serving management/routing layer.
 
-- **Tools**
-  * Additional components and manifests contributed by ODH community members in our Open Data Hub Contrib organization [opendatahub-io-contrib](https://github.com/opendatahub-io-contrib)
-  * [manifests](https://github.com/opendatahub-io/manifests): The Kubeflow Manifests repository is organized under three (3) main directories, which include manifests for installing: `apps`,  `common`, `contrib`
+**Utilities**
+- [jupyterhub-singleuser-profiles](https://github.com/opendatahub-io/jupyterhub-singleuser-profiles): This library helps to manage and configure singleuser JupyterHub servers deployed by KubeSpawner.
+- [odh-s2i-project-cookiecutter](https://github.com/opendatahub-io/odh-s2i-project-cookiecutter):  A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
+- [notebooks](https://github.com/opendatahub-io/notebooks): These images were created to be used with Open Data Hub (ODH) using the ODH Notebook Controller as the launcher.
+- [s2i-lab-elyra](https://github.com/opendatahub-io/s2i-lab-elyra): JupyterHub enabled image deploying JupyterLab with Elyra.
+- [odh-images](https://github.com/opendatahub-io/odh-images):Source files for building container images that have been customized for Open Data Hub deployment.
+- [manifests](https://github.com/opendatahub-io/manifests): A repository for Kustomize manifests.
+- [oauthenticator](https://github.com/opendatahub-io/oauthenticator): OAuth + JupyterHub Authenticator = OAuthenticator.
 
+**Test**
+- [openshift-test-kit](https://github.com/opendatahub-io/openshift-test-kit): Repos for helper module used with the Peak test framework.
+- [peak](https://github.com/opendatahub-io/peak): This test runner is based on the radanalyticsio openshift-test-kit repository.
 
-- **Utilities**
-  * [s2i-lab-elyra](https://github.com/opendatahub-io/s2i-lab-elyra): This image contains Elyra and all the dependencies and configurations needed to run as a part of OpenDataHub's JupyterHub Environment.
-  * [jupyterhub-odh](https://github.com/opendatahub-io/jupyterhub-odh): This repository contains an example of a customised deployment of JupyterHub for OpenShift, which uses the same OpenShift cluster as the deployment is running in, as the authentication provider.
-  * [jupyterhub-singleuser-profiles](https://github.com/opendatahub-io/jupyterhub-singleuser-profiles): This library helps to manage and configure singleuser JupyterHub servers deployed by KubeSpawner.
+**Templates**
+- [odh-template-sig](https://github.com/opendatahub-io/odh-template-sig): Repository template for Open Data Hub Special Interest Groups.
+- [odh-s2i-project-simple](https://github.com/opendatahub-io/odh-s2i-project-simple): Simple, unstructured, and unopinionated project for data science that is deployable as an OpenShift s2i Application.
+- [odh-s2i-project-cds](https://github.com/opendatahub-io/odh-s2i-project-cds): A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
 
-- **Template Repositories**
-  * [odh-template-sig](https://github.com/opendatahub-io/odh-template-sig) Repository template for Open Data Hub Special Interest Groups.
+**Contribution**
+- [opendatahub-community](https://github.com/opendatahub-io/opendatahub-community): This is the starting point for joining and contributing to the Open Data Hub community.
 
-- **Backup Repos**
-  * [landscapeapp](https://github.com/opendatahub-io/landscapeapp): The landscapeapp is an upstream NPM module that supports building interactive landscape websites such as the CNCF Cloud Native Landscape and the LF Artificial Intelligence Landscape.
+**Other**
+- [opendatahub.io](https://github.com/opendatahub-io/opendatahub.io): Contains webpage source code for [https://opendatahub.io](https://opendatahub.io)
+- [sig-ml-developer-experience](https://github.com/opendatahub-io/sig-ml-developer-experience): Open Data Hub Special Interest Groups.
+- [opendatahub.io-redirects](https://github.com/opendatahub-io/opendatahub.io-redirects): Example Jekyll website using GitLab Pages.
+- [odh-landscape](https://github.com/opendatahub-io/odh-landscape): Interactive map of ODH services.
+- [landscapeapp](https://github.com/opendatahub-io/landscapeapp): Landscape generation application.
+- [jupyterhub-odh](https://github.com/opendatahub-io/jupyterhub-odh): Example JupyterHub deployment using OpenShift OAuth authenticator.
+- [jupyterhub-quickstart](https://github.com/opendatahub-io/jupyterhub-quickstart): OpenShift compatible version of the JupyterHub application.
+- [traefik-proxy](https://github.com/opendatahub-io/traefik-proxy): JupyterHub proxy implementation with traefik.
+
+**Archived**
+- data-engineering-and-machine-learning-workshop
+- Fraud-Detection-with-Business-Workflows-Tutorial
+- airflow-on-k8s-operator
+- odh-model-controller
+- docker-airflow
+- s2i-spark-container

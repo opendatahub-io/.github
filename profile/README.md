@@ -6,7 +6,7 @@ Included in the Open Data Hub core deployment is several open source components,
 
 - Jupyter Notebooks
 - ODH Dashboard
-- Data Science Pipelines
+- Data Science Pipelines Operator
 - Model Mesh Serving
 
 For further information refer to the [architecture](https://opendatahub.io/docs/architecture.html) and [release notes](https://opendatahub.io/docs/roadmap/release-notes.html).
@@ -38,13 +38,11 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
   - [modelmesh-serving](https://github.com/opendatahub-io/modelmesh-serving): The Controller for managing ModelMesh, a general-purpose model serving management/routing layer.
 
 **Utilities**
-- [jupyterhub-singleuser-profiles](https://github.com/opendatahub-io/jupyterhub-singleuser-profiles): This library helps to manage and configure singleuser JupyterHub servers deployed by KubeSpawner.
 - [odh-s2i-project-cookiecutter](https://github.com/opendatahub-io/odh-s2i-project-cookiecutter):  A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
 - [notebooks](https://github.com/opendatahub-io/notebooks): These images were created to be used with Open Data Hub (ODH) using the ODH Notebook Controller as the launcher.
 - [s2i-lab-elyra](https://github.com/opendatahub-io/s2i-lab-elyra): JupyterHub enabled image deploying JupyterLab with Elyra.
 - [odh-images](https://github.com/opendatahub-io/odh-images):Source files for building container images that have been customized for Open Data Hub deployment.
 - [manifests](https://github.com/opendatahub-io/manifests): A repository for Kustomize manifests.
-- [oauthenticator](https://github.com/opendatahub-io/oauthenticator): OAuth + JupyterHub Authenticator = OAuthenticator.
 
 **Test**
 - [openshift-test-kit](https://github.com/opendatahub-io/openshift-test-kit): Repos for helper module used with the Peak test framework.
@@ -64,14 +62,8 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 - [opendatahub.io-redirects](https://github.com/opendatahub-io/opendatahub.io-redirects): Example Jekyll website using GitLab Pages.
 - [odh-landscape](https://github.com/opendatahub-io/odh-landscape): Interactive map of ODH services.
 - [landscapeapp](https://github.com/opendatahub-io/landscapeapp): Landscape generation application.
-- [jupyterhub-odh](https://github.com/opendatahub-io/jupyterhub-odh): Example JupyterHub deployment using OpenShift OAuth authenticator.
-- [jupyterhub-quickstart](https://github.com/opendatahub-io/jupyterhub-quickstart): OpenShift compatible version of the JupyterHub application.
-- [traefik-proxy](https://github.com/opendatahub-io/traefik-proxy): JupyterHub proxy implementation with traefik.
 
 **Archived**
 - data-engineering-and-machine-learning-workshop
 - Fraud-Detection-with-Business-Workflows-Tutorial
-- airflow-on-k8s-operator
 - odh-model-controller
-- docker-airflow
-- s2i-spark-container

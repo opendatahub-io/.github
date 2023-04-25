@@ -58,6 +58,7 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 
 **Other**
 - [opendatahub.io](https://github.com/opendatahub-io/opendatahub.io): Contains webpage source code for [https://opendatahub.io](https://opendatahub.io)
+- [architecture-decision-records](https://github.com/opendatahub-io/architecture-decision-records): Documentation of architectural decisions used to help current and future contributors to understand the reasons for doing things a certain way.
 - [sig-ml-developer-experience](https://github.com/opendatahub-io/sig-ml-developer-experience): Open Data Hub Special Interest Groups.
 - [opendatahub.io-redirects](https://github.com/opendatahub-io/opendatahub.io-redirects): Example Jekyll website using GitLab Pages.
 - [odh-landscape](https://github.com/opendatahub-io/odh-landscape): Interactive map of ODH services.

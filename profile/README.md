@@ -1,61 +1,62 @@
 ## Welcome to Open Data Hub :wave:
 
-Open Data Hub (ODH) is an open source project that provides open source AI tools for running large and distributed AI workloads on the OpenShift Container Platform. Currently, the Open Data Hub project provides open source tools for distributed AI and Machine Learning (ML) workflows, Jupyter Notebook development environment and monitoring. The Open Data Hub project roadmap offers a view on new tools and integration the project developers are planning to add.  
+Welcome to Open Data Hub (ODH), an exciting open source project that provides AI tools for running large and distributed AI workloads on the OpenShift Container Platform. Our mission is to empower users with powerful and accessible AI and Machine Learning (ML) capabilities. Whether you're a data scientist, a data analyst, or an application developer, ODH has something for you.
 
-Included in the Open Data Hub core deployment are several open source components, which can be individually enabled. They include:
+### What's Included in Open Data Hub
 
-- Jupyter Notebooks
-- ODH Dashboard
-- Data Science Pipelines Operator
-- Model Mesh Serving
+The Open Data Hub core deployment consists of several open source components that can be individually enabled based on your needs. Here are some of the key components:
 
-For further information refer to the [architecture](https://opendatahub.io/docs/architecture.html) and [release notes](https://opendatahub.io/docs/roadmap/release-notes.html).
+- **Jupyter Notebooks:** *A powerful development environment for interactive and collaborative data science.*
+- **ODH Dashboard:** *A convenient dashboard that provides an overview of installed components, available installations, and links to component UIs and documentation.*
+- **Data Science Pipelines Operator:** *A tool for building and orchestrating end-to-end data science workflows.*
+- **Model Mesh Serving:** *A distributed model serving framework for managing and routing machine learning models.*
+
+For more detailed information about our architecture and recent updates, please refer to our [architecture](https://opendatahub.io/docs/architecture.html) and [release notes](https://opendatahub.io/docs/roadmap/release-notes.html).
+
+<p align="center">
+  <img width="60%" src="https://opendatahub.io/assets/img/pages/arch/figure-1.png">
+</p>
+
 
 ### Special Interest Groups and Working Groups
 
-**Open Data Hub (ODH)** adopted an organization and governance model to foster transparent decision making and innovation. The project is organized into Special Interest Groups (SIG) and Working Groups (WG). The table below offers an overview of the current structure. For more information, read the [Governance](https://github.com/opendatahub-io/opendatahub-community/blob/main/governance.md) section, or the individual SIG/WG links:
+To foster transparent decision making and innovation, Open Data Hub has adopted an organization and governance model. We are organized into Special Interest Groups (SIG) and Working Groups (WG). Here's an overview of our current structure:
 
-|     | Name                                                                                                                  | Chairs                                                                        | Scope                                                                                              | Repositories                                                                                                                                                                                                                                                                                                                                                                                     |
-| --- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| SIG | [ML Dev Experience](https://github.com/opendatahub-io/opendatahub-community/tree/main/sig-ml-developer-experience)    | - Jay Koehler<br>- Kyle Walker<br>- Erwan Granger<br>- Romeo Kienzler         | End-to-end experience for a data scientist, a data analyst or an application developer             | [sig-ml-developer-experience](https://github.com/opendatahub-io/sig-ml-developer-experience)<br>[odh-dashboard](https://github.com/opendatahub-io/odh-dashboard)<br> [notebooks](https://github.com/opendatahub-io/notebooks) |
-| SIG | [ML Ops](https://github.com/opendatahub-io/opendatahub-community/tree/main/sig-ml-ops)                                | - Prasanth Anbalagan<br>- Anish Asthana<br>- Nick Hill<br>- Giulio Frasca     | Services and APIs responsible for providing ML Ops capabilities to users of the Open Data Hub      | [modelmesh-serving](https://github.com/opendatahub-io/modelmesh-serving)<br>[odh-model-controller](https://github.com/opendatahub-io/odh-model-controller)<br>[rest-proxy](https://github.com/opendatahub-io/rest-proxy)<br>[modelmesh](https://github.com/opendatahub-io/modelmesh)<br>[modelmesh-runtime-adapter](https://github.com/opendatahub-io/modelmesh-runtime-adapter)<br>[data-science-pipelines-operator](https://github.com/opendatahub-io/data-science-pipelines-operator)<br>[data-science-pipelines](https://github.com/opendatahub-io/data-science-pipelines) |
-| SIG | [Platform](https://github.com/opendatahub-io/opendatahub-community/tree/main/sig-platform)                            | - Taneem Ibrahim<br>- Landon LaSmith<br>- Vaishinavi Hire<br>- Gabe Goodheart | ODH operator, odh-core components, ecosystem integration, authentication, and monitoring           | [opendatahub-operator](https://github.com/opendatahub-io/opendatahub-operator)<br>[odh-manifests](https://github.com/opendatahub-io/odh-manifests) |
-| WG  | [Distributed Workloads](https://github.com/opendatahub-io/opendatahub-community/tree/main/wg-distributed-workloads)   | - Anish Asthana<br>- Michael Clifford<br>- Mustafa Eyceoz                     | Easy and user-friendly access to distributed workloads and workload orchestration on Open Data Hub | [distributed-workloads](https://github.com/opendatahub-io/distributed-workloads) |
-| WG  | [On-prem](https://github.com/opendatahub-io/opendatahub-community/tree/main/wg-on-prem)                               | - Landon LaSmith<br>- JooHo Lee<br>- Vaishnavi Hire                           | Guidance for on premises deployments of Open Data Hub                                              |      |
-| WG  | [Explainable AI](https://github.com/opendatahub-io/opendatahub-community/tree/main/wg-xai)                            | - Rebecca Whitworth<br>- Tommaso Teofili<br>- Rui Vieira<br>- Rob Geada       | Explainability framework for ODH developers                                                        | [trustyai-explainability](https://github.com/trustyai-explainability/trustyai-explainability)    |
+|                | SIG Platform                                              | SIG ML Dev Experience                                        | SIG ML Ops                                                                                                  |
+| -------------- | --------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| *Scope*          | ODH operator, odh-core components, ecosystem integration, authentication, and monitoring   | End-to-end experience for data scientists, analysts, and developers | Services and APIs for ML Ops capabilities in Open Data Hub                                                   |
+| *Chairs*         | Taneem Ibrahim,<br>Landon LaSmith,<br>Vaishinavi Hire,<br>Gabe Goodheart | Jay Koehler,<br>Kyle Walker,<br>Erwan Granger,<br>Romeo Kienzler       | Prasanth Anbalagan,<br>Anish Asthana,<br>Nick Hill,<br>Giulio Frasca                                                   |
+| *Working Groups* | #wg-custom-notebook-images,<br>#wg-distributed-workloads,<br>#wg-notebook-controller,<br>#wg-odh-rearchitecture,<br>#wg-on-prem | #wg-opendatahubio-website,<br>#wg-ux-ui-end-to-end-design,<br>#wg-workbench-images | #wg-ai-explainability,<br>#wg-model-serving,<br>#wg-pipelines                                                        |
+| *Repositories*   | [opendatahub-operator](https://github.com/opendatahub-io/opendatahub-operator),<br>[odh-manifests](https://github.com/opendatahub-io/odh-manifests) | [sig-ml-developer-experience](https://github.com/opendatahub-io/sig-ml-developer-experience),<br>[odh-dashboard](https://github.com/opendatahub-io/odh-dashboard),<br>[notebooks](https://github.com/opendatahub-io/notebooks) | [modelmesh-serving](https://github.com/opendatahub-io/modelmesh-serving),<br>[odh-model-controller](https://github.com/opendatahub-io/odh-model-controller),<br>[rest-proxy](https://github.com/opendatahub-io/rest-proxy),<br>[modelmesh](https://github.com/opendatahub-io/modelmesh),<br>[modelmesh-runtime-adapter](https://github.com/opendatahub-io/modelmesh-runtime-adapter),<br>[data-science-pipelines-operator](https://github.com/opendatahub-io/data-science-pipelines-operator),<br>[data-science-pipelines](https://github.com/opendatahub-io/data-science-pipelines) |
 
-##
+For more detailed information about our organization, governance, and the work being done in each SIG and WG, please check out our [Governance](https://github.com/opendatahub-io/opendatahub-community/blob/main/governance.md) section and explore the individual SIG/WG links.
+
 ---
+
 ## Important Links
 
-**Contribution Guidelines**:
-[https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md](https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md)
+Here are some important links to get you started and engaged with the Open Data Hub community:
 
-**Roadmap**:
-[https://opendatahub.io/docs/roadmap/future.html](https://opendatahub.io/docs/roadmap/future.html)
-
-**Getting Started**:
-[https://opendatahub.io/docs/getting-started/quick-installation.html](https://opendatahub.io/docs/getting-started/quick-installation.html)
-
-##
+- **Contribution Guidelines**: Learn how to contribute to the project and become an active member of our community by reading our [contribution guidelines](https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md).
+- **Roadmap**: Discover our future plans and upcoming features by exploring our [roadmap](https://opendatahub.io/docs/roadmap/future.html).
+- **Getting Started**: Get started quickly with Open Data Hub by following our [quick installation guide](https://opendatahub.io/docs/getting-started/quick-installation.html).
 
 ### Repositories
 
-**Core**
-- [opendatahub-operator](https://github.com/opendatahub-io/opendatahub-operator): A repository that helps to deploy, monitor and manage the lifecycle of Kubeflow. Built using the Operator Framework which offers an open source toolkit to build, test, package operators and manage the lifecycle of operators.
-- [odh-dashboard](https://github.com/opendatahub-io/odh-dashboard): A dashboard for Open Data Hub components. Shows what's installed and what's available for installation, as well as, links to component UIs and links to component documentation.
-- [odh-manifests](https://github.com/opendatahub-io/odh-manifests): A repository for Open Data Hub components Kustomize manifests.
-- [odh-notebook-controller](https://github.com/opendatahub-io/kubeflow/tree/master/components/odh-notebook-controller): This repository contains the code for the Open Data Hub notebook controller with support for OAuth authentication.
-- [data-science-pipelines](https://github.com/opendatahub-io/data-science-pipelines): Project bringing Kubeflow Pipelines and Tekton together. The current code allows you run Kubeflow Pipelines with Tekton backend end to end.
-- [modelmesh](https://github.com/opendatahub-io/modelmesh): Distributed Model Serving Framework.
-  - [modelmesh-runtime-adapter](https://github.com/opendatahub-io/modelmesh-runtime-adapter): Unified runtime-adapter image of the sidecar containers which run in the modelmesh pods
-  - [rest-proxy](https://github.com/opendatahub-io/rest-proxy): KServe V2 Protocol Rest API Implementation Proxy.
-  - [modelmesh-serving](https://github.com/opendatahub-io/modelmesh-serving): The Controller for managing ModelMesh, a general-purpose model serving management/routing layer.
+Explore our repositories to access various components, utilities, tests, templates, and more:
 
-**Utilities**
-- [odh-s2i-project-cookiecutter](https://github.com/opendatahub-io/odh-s2i-project-cookiecutter):  A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
-- [notebooks](https://github.com/opendatahub-io/notebooks): These images were created to be used with Open Data Hub (ODH) using the ODH Notebook Controller as the launcher.
-- [s2i-lab-elyra](https://github.com/opendatahub-io/s2i-lab-elyra): JupyterHub enabled image deploying JupyterLab with Elyra.
+**Core**:
+- [opendatahub-operator](https://github.com/opendatahub-io/opendatahub-operator): Deploy, monitor, and manage the lifecycle of Kubeflow using the Operator Framework.
+- [odh-dashboard](https://github.com/opendatahub-io/odh-dashboard): A dashboard for Open Data Hub components, providing easy access to UIs and documentation.
+- [odh-manifests](https://github.com/opendatahub-io/odh-manifests): Kustomize manifests for Open Data Hub components.
+- [odh-notebook-controller](https://github.com/opendatahub-io/kubeflow/tree/master/components/odh-notebook-controller): Code for the Open Data Hub notebook controller with OAuth authentication support.
+- [data-science-pipelines](https://github.com/opendatahub-io/data-science-pipelines): Integration of Kubeflow Pipelines with Tekton for end-to-end data science workflows.
+- [modelmesh](https://github.com/opendatahub-io/modelmesh) and related repositories: Distributed Model Serving Framework.
+
+**Utilities**:
+- [odh-s2i-project-cookiecutter](https://github.com/opendatahub-io/odh-s2i-project-cookiecutter): Standardized project structure for data science work.
+- [notebooks](https://github.com/opendatahub-io/notebooks): Images for use with the ODH Notebook Controller.
+- [s2i-lab-elyra](https://github.com/opendatahub-io/s2i-lab-elyra): JupyterLab with Elyra enabled for JupyterHub deployments.
 - [odh-images](https://github.com/opendatahub-io/odh-images):Source files for building container images that have been customized for Open Data Hub deployment.
 - [manifests](https://github.com/opendatahub-io/manifests): A repository for Kustomize manifests.
 

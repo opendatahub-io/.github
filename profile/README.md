@@ -85,4 +85,3 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 **Archived**
 - data-engineering-and-machine-learning-workshop
 - Fraud-Detection-with-Business-Workflows-Tutorial
-- odh-model-controller

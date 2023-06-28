@@ -37,6 +37,9 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 **Getting Started**:
 [https://opendatahub.io/docs/getting-started/quick-installation.html](https://opendatahub.io/docs/getting-started/quick-installation.html)
 
+**Report an Issue**: 
+[https://github.com/opendatahub-io/opendatahub-community/issues](https://github.com/opendatahub-io/opendatahub-community/issues)
+
 ##
 
 ### Repositories

@@ -9,7 +9,7 @@ Included in the Open Data Hub core deployment are several open source components
 - Data Science Pipelines Operator
 - Model Mesh Serving
 
-For further information refer to the [architecture](https://opendatahub.io/docs/architecture) and [release notes](https://opendatahub.io/docs/release-notes/).
+For further information refer to the [architecture](https://opendatahub.io/docs/architecture) and [release notes](https://opendatahub.io/docs/release-notes).
 
 ### Special Interest Groups and Working Groups
 
@@ -32,10 +32,10 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 [https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md](https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md)
 
 **Roadmap**:
-[https://opendatahub.io/docs/future/](https://opendatahub.io/docs/future/)
+[https://opendatahub.io/docs/future](https://opendatahub.io/docs/future)
 
 **Getting Started**:
-[https://opendatahub.io/docs/quick-installation/](https://opendatahub.io/docs/quick-installation/)
+[https://opendatahub.io/docs/quick-installation](https://opendatahub.io/docs/quick-installation)
 
 **Report an Issue**: 
 [https://github.com/opendatahub-io/opendatahub-community/issues](https://github.com/opendatahub-io/opendatahub-community/issues)

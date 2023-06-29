@@ -9,7 +9,7 @@ Included in the Open Data Hub core deployment are several open source components
 - Data Science Pipelines Operator
 - Model Mesh Serving
 
-For further information refer to the [architecture](https://opendatahub.io/docs/architecture.html) and [release notes](https://opendatahub.io/docs/roadmap/release-notes.html).
+For further information refer to the [architecture](https://opendatahub.io/docs/architecture) and [release notes](https://opendatahub.io/docs/release-notes/).
 
 ### Special Interest Groups and Working Groups
 
@@ -32,10 +32,10 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 [https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md](https://github.com/opendatahub-io/opendatahub-community/blob/master/contributing.md)
 
 **Roadmap**:
-[https://opendatahub.io/docs/roadmap/future.html](https://opendatahub.io/docs/roadmap/future.html)
+[https://opendatahub.io/docs/future/](https://opendatahub.io/docs/future/)
 
 **Getting Started**:
-[https://opendatahub.io/docs/getting-started/quick-installation.html](https://opendatahub.io/docs/getting-started/quick-installation.html)
+[https://opendatahub.io/docs/quick-installation/](https://opendatahub.io/docs/quick-installation/)
 
 **Report an Issue**: 
 [https://github.com/opendatahub-io/opendatahub-community/issues](https://github.com/opendatahub-io/opendatahub-community/issues)
@@ -78,9 +78,6 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 - [opendatahub.io](https://github.com/opendatahub-io/opendatahub.io): Contains webpage source code for [https://opendatahub.io](https://opendatahub.io)
 - [architecture-decision-records](https://github.com/opendatahub-io/architecture-decision-records): Documentation of architectural decisions used to help current and future contributors to understand the reasons for doing things a certain way.
 - [sig-ml-developer-experience](https://github.com/opendatahub-io/sig-ml-developer-experience): Open Data Hub Special Interest Groups.
-- [opendatahub.io-redirects](https://github.com/opendatahub-io/opendatahub.io-redirects): Example Jekyll website using GitLab Pages.
-- [odh-landscape](https://github.com/opendatahub-io/odh-landscape): Interactive map of ODH services.
-- [landscapeapp](https://github.com/opendatahub-io/landscapeapp): Landscape generation application.
 
 **Archived**
 - data-engineering-and-machine-learning-workshop

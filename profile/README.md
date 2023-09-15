@@ -23,6 +23,8 @@ For further information refer to the [architecture](https://opendatahub.io/docs/
 | WG  | [Distributed Workloads](https://github.com/opendatahub-io/opendatahub-community/tree/main/wg-distributed-workloads)   | - Anish Asthana<br>- Michael Clifford<br>- Mustafa Eyceoz                     | Easy and user-friendly access to distributed workloads and workload orchestration on Open Data Hub | [distributed-workloads](https://github.com/opendatahub-io/distributed-workloads) |
 | WG  | [On-prem](https://github.com/opendatahub-io/opendatahub-community/tree/main/wg-on-prem)                               | - Landon LaSmith<br>- JooHo Lee<br>- Vaishnavi Hire                           | Guidance for on premises deployments of Open Data Hub                                              |      |
 | WG  | [Explainable AI](https://github.com/opendatahub-io/opendatahub-community/tree/main/wg-xai)                            | - Rebecca Whitworth<br>- Tommaso Teofili<br>- Rui Vieira<br>- Rob Geada       | Explainability framework for ODH developers                                                        | [trustyai-explainability](https://github.com/trustyai-explainability/trustyai-explainability)    |
+| WG  | [Model Registry](https://github.com/opendatahub-io/model-registry)                            | - Ramesh Reddy<br>- Dhiraj Bokde<br>- Matteo Mortari      | Model Registry for ODH | [Model Registry](https://github.com/opendatahub-io/model-registry)
+
 
 ##
 ---
